@@ -1,33 +1,76 @@
 # Agri_loan_analysis
-Agricultural Loan Analysis Power BI Project
-Welcome to the Agricultural Loan Analysis Power BI project repository! This project focuses on insightful analysis and visualization of agricultural loan data provided by the government to NABARD Bank and further distributed by Samities to individual applicants.
+# Agricultural Loan Analysis - Power BI Project
 
-Project Overview
-This Power BI project aims to analyze key aspects of agricultural loans to support data-driven decision-making. It is organized into three main dashboards: Summary, Overview, and Details—offering a comprehensive understanding of loan distribution, repayment trends, and borrower profiles.
+Welcome to the Agricultural Loan Analysis Power BI project!  
+This project presents a comprehensive and interactive dashboard solution to analyze **government-provided agricultural loan data**, disbursed through **NABARD Bank** and further allocated by **Samities** to individual applicants.
 
- Dashboard 1: Summary
-Key Performance Indicators (KPIs):
-Total Loan Applications: Number of agricultural loan applications received in a selected time period, with Month-to-Date (MTD) and Month-over-Month (MoM) change metrics.
+---
 
-Total Sanctioned Amount: Total amount of loans sanctioned to farmers via Samities, with MTD and MoM insights.
+## Overview
 
-Total Repaid Amount: Track total repayment collected from farmers to monitor cash inflow and repayment efficiency.
+This project aims to derive actionable insights from agricultural loan data using **Power BI**. It provides financial institutions, government agencies, and stakeholders with a clear view of loan disbursement, repayment patterns, and borrower profiles.
 
-Average Interest Rate: Measure the average interest rate applicable to sanctioned loans over time.
+The project consists of three core dashboards:
 
-Average Debt-to-Income Ratio (DTI): Evaluate borrower risk by calculating the average DTI across all loans.
+- **Summary Dashboard**
+- **Overview Dashboard**
+- **Details Dashboard**
 
-Summary Visualization:
-Loan Status Grid: An organized grid showing key loan metrics broken down by Loan Status. This includes:
+---
 
-Total Applications
+## Dashboard 1: Summary
 
-Sanctioned Amount
+### Key Performance Indicators (KPIs):
+- **Total Loan Applications**: Number of loan applications submitted in the selected period, including MTD and MoM comparisons.
+- **Total Sanctioned Amount**: Total disbursed amount to applicants via Samities.
+- **Total Repaid Amount**: Aggregated amount received as repayment.
+- **Average Interest Rate**: Average interest applied across all loans.
+- **Average Debt-to-Income Ratio (DTI)**: Used to assess borrower repayment capacity.
 
-Repaid Amount
+### Visualization:
+- **Loan Status Grid View**  
+  View loans grouped by status (e.g., Sanctioned, Repaid, Pending) showing metrics like:
+  - Total Loan Applications  
+  - Total Sanctioned Amount  
+  - Total Repaid Amount  
+  - MTD Sanctioned Amount  
+  - MTD Repaid Amount  
+  - Average Interest Rate  
+  - Average DTI  
 
-MTD Funded & Repaid Values
+---
 
-Average Interest Rate
+## Dashboard 2: Overview
 
-Average DTI
+This dashboard explores distribution and trends across various borrower and loan attributes.
+
+### Visual Elements:
+- **Monthly Trends (Line Chart)** – Understand seasonality and volume shifts.
+- **Regional Analysis (Filled Map)** – Analyze loan disbursement state-wise.
+- **Loan Term Distribution (Donut Chart)** – Compare short-term vs long-term loans.
+- **Employment Length (Bar Chart)** – Analyze employment stability vs loan approvals.
+- **Loan Purpose (Bar Chart)** – Track common loan purposes like irrigation, seeds, fertilizers, etc.
+- **Ownership Status (Tree Map)** – Impact of home/land ownership on loan status.
+
+---
+
+## Dashboard 3: Details
+
+### Objective:
+Provide granular insights into:
+- Individual loan records
+- Borrower profiles
+- Detailed payment and verification information
+
+This dashboard helps in effective data tracking and supports targeted policy decision-making.
+
+
+## Conclusion
+
+This Power BI project helps to:
+- Visualize disbursement and repayment trends
+- Identify region-specific patterns
+- Optimize lending strategies
+- Support financial planning and policy formulation
+- Improve transparency and reporting
+
